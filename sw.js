@@ -1,5 +1,6 @@
 // 待办清单 Service Worker —— 让 App 断网也能打开
-const CACHE = "todo-app-v1";
+// 每次修改 index.html / 样式 / 图标后，把下面的版本号 +1，手机端才会拉到新版本
+const CACHE = "todo-app-v2";
 const ASSETS = [
   "./",
   "./index.html",
